@@ -1,0 +1,23 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.popup-window {
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    width: 300px;
+    border: 1px solid black;
+    height: 300px;
+    margin: 0 0 0 -150px;
+    display: none;
+    position: absolute;
+    left: 50%;
+}
+
+.popup-window input {
+    float: left;
+}
+
+

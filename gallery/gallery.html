@@ -1,0 +1,44 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>
+    </title>
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
+    <link rel='stylesheet' href='css/gallery.css'>
+</head>
+<body>
+<div class='b-gallery' id='gallery1'>
+    <div class='b-picture'><img src='img/small_79.jpg' class='b-picture__image' alt='Image 79'></div>
+    <div class='b-picture'><img src='img/small_80.jpg' class='b-picture__image' alt='Image 80'></div>
+    <div class='b-picture'><img src='img/small_82.jpg' class='b-picture__image' alt='Image 82'></div>
+    <div class='b-picture'><img src='img/small_83.jpg' class='b-picture__image' alt='Image 83'></div>
+    <div class='b-picture'><img src='img/small_84.jpg' class='b-picture__image' alt='Image 84'></div>
+    <div class='b-picture'><img src='img/small_85.jpg' class='b-picture__image' alt='Image 85'></div>
+    <div class='b-picture'><img src='img/small_86.jpg' class='b-picture__image' alt='Image 86'></div>
+    <div class='b-picture'><img src='img/small_87.jpg' class='b-picture__image' alt='Image 87'></div>
+    <div class='b-picture'><img src='img/small_89.jpg' class='b-picture__image' alt='Image 89'></div>
+    <div class='b-preview'>
+        <div class='b-preview__content'>
+            <div class='b-preview__arrow b-preview__arrow_prev'>&lt;</div>
+            <img src='' class='b-preview__image'>
+            <div class='b-preview__arrow b-preview__arrow_next'>&gt;</div>
+
+            <div class='b-preview__text'></div>
+            <div class="b-preview__info">
+                <span class="b-preview__currentNum"></span> /
+                <span class="b-preview__qty"></span>
+            </div>
+            <div class="b-preview__slideshow">
+                <button class="b-preview__btn b-preview__btn_start">start</button>
+                <button class="b-preview__btn b-preview__btn_stop">stop</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/gallery.js"></script>
+<script>
+    var g1 = new Gallery("#gallery1");
+</script>
+</body>
+</html>

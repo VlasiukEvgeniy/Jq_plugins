@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Popup window</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/popup_window.css">
+</head>
+<body>
+<div id="popupWindow" class="popup-window">
+    <input type="button" value="X" class="close_btn">
+    <h1>Your content</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, nisi.</p>
+</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/popup_window.js"></script>
+<script>
+    var p1 = new PopUp("#popupWindow");
+</script>
+</body>
+</html>

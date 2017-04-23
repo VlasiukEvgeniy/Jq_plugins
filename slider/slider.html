@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Slider</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+<div class="b-slider" id="slider1">
+    <div class="b-slider__content">
+        <div class="b-slide fade">
+            <img src="img/1.jpg" style="width:100%" class="b-slide_picture">
+        </div>
+
+        <a class="b-slider__btn b-slider__btn_prev ">&#10094;</a>
+        <a class="b-slider__btn b-slider__btn_next">&#10095;</a>
+
+        <ul class="b-slide__dotList dotList">
+            <li class="b-slide__dot" id="dot1"></li>
+            <li class="b-slide__dot" id="dot2"></li>
+            <li class="b-slide__dot" id="dot3"></li>
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+        var s1 = new Slider("#slider1");
+    </script>
+</body>
+</html>

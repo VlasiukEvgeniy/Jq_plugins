@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Dropdown menu</title>
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
+    <link rel='stylesheet' href='css/menu.css'>
+    <!--<link rel="stylesheet" href="css/menu-accordion.css">-->
+</head>
+<body>
+<ul class='b-menu' id="menu1">
+    <li class='b-menu__item'><a href='#' class='b-menu__link'>Файл</a>
+        <ul class='b-submenu'>
+            <li class='b-submenu__item'><a href='#' class='b-submenu__link'>Создать</a></li>
+            <li class='b-submenu__item'><a href='#' class='b-submenu__link'>Открыть</a></li>
+            <li class='b-submenu__item'><a href='#' class='b-submenu__link'>Сохранить</a></li>
+        </ul>
+    </li>
+    <li class='b-menu__item'><a href='#' class='b-menu__link'>Правка</a></li>
+    <li class='b-menu__item'><a href='#' class='b-menu__link'>Вид</a>
+        <ul class='b-submenu'>
+            <li class='b-submenu__item'><a href='#' class='b-submenu__link'>Список</a></li>
+            <li class='b-submenu__item'><a href='#' class='b-submenu__link'>Таблица</a></li>
+            <li class='b-submenu__item'><a href='#' class='b-submenu__link'>Плиточка</a></li>
+        </ul>
+    </li>
+</ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/menu.js"></script>
+<!--<script src="js/menu-click.js"></script>-->
+<!--<script src="js/menu-accordion.js"></script>-->
+<script>
+    var menu1 = new Menu('#menu1');
+//    var menu1 = new Menu('#menu1', true);
+</script>
+<script>
+</script>
+</body>
+</html>

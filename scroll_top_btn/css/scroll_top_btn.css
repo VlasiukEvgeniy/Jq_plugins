@@ -1,0 +1,22 @@
+body {
+    height: 1500px;
+}
+
+a {
+    display: block;
+}
+
+#page1 a.top_btn {
+    color: #FFFFFF;
+    background-color: #000;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    display: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    width: 70px;
+    padding: 10px 5px;
+}

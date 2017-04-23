@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Countdown timer</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/countdown_timer.css">
+</head>
+<body>
+<div class="container">
+    <h1>New course start:</h1>
+    <ul class="timer" id="timer1">
+        <span>Days</span>
+        <li class="days"></li>
+        <li class="point"></li>
+        <span>Hours</span>
+        <li class="hours"></li>
+        <li class="point">:</li>
+        <span>Minutes</span>
+        <li class="min"></li>
+        <li class="point">:</li>
+        <span>Seconds</span>
+        <li class="sec"></li>
+    </ul>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/countdown_timer.js"></script>
+<script>
+    var t1 = new Timer("#timer1");
+</script>
+</body>
+</html>
